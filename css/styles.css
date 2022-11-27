@@ -597,7 +597,7 @@ align-items: baseline;
 .portfolio-button {
 color: var(--secondary-text-color);
 background-color: var(--secondary-bcg-color);
-border-color: transparent;
+border: none;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -635,20 +635,18 @@ padding-right: 22px;
     background-color: var(--accent-color);
 }
 
+.portfolio-button:hover {
+    box-shadow:   0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
 .port-buttons {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-
-
-.pb:hover {
-    box-shadow:   0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08),
-    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-     
-}
 
 .sect-card {
 padding-top: 0;
